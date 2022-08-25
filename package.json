@@ -4,11 +4,11 @@
   "description": "Zomato Backend in Nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node build/index.js",
+    "start": "babel-node src/index.js",
     "dev": "nodemon --exec babel-node src/index.js",
     "build": "babel src -d build"
   },
-  "author": "Harini Thandoju",
+  "author": "Aditya Gusain",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1033.0",
@@ -21,16 +21,13 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.12",
     "multer": "^1.4.3",
-    "nodemon": "^2.0.15",
+    "nodemon": "^2.0.14",
     "passport": "^0.5.0",
     "passport-google-oauth20": "^2.0.0",
     "passport-jwt": "^4.0.0",
-    "start": "^5.1.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.16.8",
-    "@babel/core": "^7.16.12",
-    "@babel/node": "^7.16.8",
-    "@babel/preset-env": "^7.16.11"
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0"
   }
 }
